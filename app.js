@@ -12,7 +12,8 @@ const app = express();
 
 mongoose.connect('mongodb+srv://admin:pupan1@cluster0.v4fge.mongodb.net/online_nodeapi?retryWrites=true&w=majority', { 
     useNewUrlParser: true, 
-    useUnifiedTopology: true 
+    useUnifiedTopology: true ,
+    useFindAndModify: false
 });
 
 
